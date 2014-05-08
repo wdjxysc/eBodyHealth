@@ -1,0 +1,84 @@
+/* 
+  Locallizable.strings
+  eBodyHealth
+
+  Created by 夏 伟 on 13-8-3.
+  Copyright (c) 2013年 夏 伟. All rights reserved.
+*/
+"LOGINLABEL_USERNAME" = "UserName:";
+"LOGINLABEL_PASSWORD" = "PassWord:";
+"LOGINBUTTON_OK" = "OK";
+"LOGINBUTTON_REGISTER" = "Register";
+"LOGINTEXTFIELD_USERNAME" = "Please input username";
+"LOGINTEXTFIELD_PASSWORD" = "Please input password";
+"USER_AGE" = "Age";
+"USER_GENDER" = "Gender";
+"USER_HEIGHT" = "Height";
+"USER_WEIGHT" = "Weight";
+"USER_FAT" = "Fat";
+"USER_MUSCLE" = "Muscle";
+"USER_WATER" = "Water";
+"USER_VISFAT" = "Vis Fat";
+"USER_BONE" = "Bone";
+"USER_BMI" = "BMI";
+"USER_BMR" = "BMR";
+"USER_SYS" = "SYS";
+"USER_DIA" = "DIA";
+"USER_OXYGEN" = "Oxygen";
+"USER_PULSE" = "Pulse";
+"USER_GLUCOSE" = "Glucose";
+"TEST_TIME" = "Test time";
+"ENTER" = "Enter";
+"ADDNEWUSER" = "AddNewUser";
+"EBELTER_HEALTH_CENTER" = "Ebelter Health Center";
+"BACK" = "Back";
+"SAVE" = "Save";
+"CANCEL" = "Cancel";
+"DONE" = "Done";
+"MEASURE" = "Measure";
+"HISTORY" = "History";
+"CHART" = "Chart";
+"SETTINGS" = "Settings";
+"DATATYPE_WEIGHT" = "Weight";
+"DATATYPE_BODYFAT" = "Body fat";
+"DATATYPE_BLOODPRESSURE" = "Blood pressure";
+"DATATYPE_OXYGEN" = "Oxygen";
+"DATATYPE_GLUCOSE" = "Glucose";
+"USER" = "User";
+"EDITUSER" = "Edit User";
+"DELETEUSER" = "Delete user";
+"USERINFO" = "User Info";
+"USERINFO_NAME" = "Name";
+"USERINFO_GENDER" = "Gender";
+"USERINFO_BRITHDAY" = "Brithday";
+"USERINFO_AGE" = "Age";
+"USERINFO_HEIGHT" = "Height";
+"USERINFO_WEIGHT" = "Weight";
+"USERINFO_ATHLETICTYPE" = "Athletic Type";
+"ATHLETICTYPE_NON_ATHLETE" = "Non-athlete";
+"ATHLETICTYPE_AMATEUR_ATHLETE" = "Amateur athlete";
+"ATHLETICTYPE_PROFEESSIONAL_ATHLETE" = "Profeessional athlete";
+"GENDER_MALE" = "Male";
+"GENDER_FEMALE" = "Female";
+"OPTIONAL_INFO" = "Optional Info";
+"DELETE_USER" = "Delete User";
+"SURE_DELETE_USER" = "Sure to delete the user?";
+"YES" = "Yes";
+"PLEASE_SET_BRITHDAY" = "Please set brithday!";
+"NOTICE" = "Notice";
+"PLEASE_INPUT_USERNAME" = "Please input username!";
+"PLEASE_INPUT_GENDER" = "Please input gender!";
+"PLEASE_INPUT_HEIGHT" = "Please input height!";
+"PLEASE_INPUT_WEIGHT" = "Please input weight!";
+"PLEASE_INPUT_BRITHDAY" = "Please input brithday!";
+"PLEASE_INPUT_ATHLETE_TYPE" = "Please set athlete type!";
+"OK" = "Ok";
+"SET_USER_INFO" = "set user information";
+"SET_OPTIONAL_INFO" = "set optional infomation";
+"MEASURE_TYPE_WEIGHT" = "Weight";
+"MEASURE_TYPE_BLOODPRESSURE" = "Blood pressure";
+"MEASURE_TYPE_BODYFAT" = "Body fat";
+"MEASURE_TYPE_OXYGEN" = "Oxygen";
+"MEASURE_TYPE_GLUCOSE" = "Glucose";
+
+"NOVA_GOTIT" = "Nova_Yes01en.wav";

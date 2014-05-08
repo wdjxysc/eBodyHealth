@@ -1,0 +1,1282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		644EB02217D47EF00007A758 /* system.wav in Resources */ = {isa = PBXBuildFile; fileRef = 644EB02117D47EF00007A758 /* system.wav */; };
+		644EB07B17D48BEC0007A758 /* Nova_Yes01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 644EB07A17D48BEC0007A758 /* Nova_Yes01.wav */; };
+		644EB07D17D4902C0007A758 /* Nova_Yes01en.wav in Resources */ = {isa = PBXBuildFile; fileRef = 644EB07C17D4902C0007A758 /* Nova_Yes01en.wav */; };
+		64A699A217BB7B9000821F0D /* SettingUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A699A017BB7B9000821F0D /* SettingUserInfoViewController.m */; };
+		64A699A317BB7B9000821F0D /* SettingUserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64A699A117BB7B9000821F0D /* SettingUserInfoViewController.xib */; };
+		64AA0E6E17C1F1F200F4FDD3 /* login_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 64AA0E6D17C1F1F100F4FDD3 /* login_back.png */; };
+		64B9E1AF188630AE00E896EC /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B9E1AE188630AE00E896EC /* Media.xcassets */; };
+		64BBB15D17C605B20011B0FA /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BBB15C17C605B20011B0FA /* libCorePlot-CocoaTouch.a */; };
+		64BCF03917C72EAD00D09187 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BCF03817C72EAC00D09187 /* QuartzCore.framework */; };
+		64BD0EB017BF750A00DDF71D /* 04-05.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0E9917BF750900DDF71D /* 04-05.png */; };
+		64BD0EB117BF750A00DDF71D /* 04-06.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0E9A17BF750900DDF71D /* 04-06.png */; };
+		64BD0EB217BF750A00DDF71D /* Blood pressure_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0E9B17BF750900DDF71D /* Blood pressure_03.png */; };
+		64BD0EB317BF750A00DDF71D /* Blood pressure.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0E9C17BF750900DDF71D /* Blood pressure.png */; };
+		64BD0EB417BF750A00DDF71D /* Blood sugar .png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0E9D17BF750900DDF71D /* Blood sugar .png */; };
+		64BD0EB517BF750A00DDF71D /* Blood sugar_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0E9E17BF750900DDF71D /* Blood sugar_03.png */; };
+		64BD0EB617BF750A00DDF71D /* Body Fat_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0E9F17BF750900DDF71D /* Body Fat_03.png */; };
+		64BD0EB717BF750A00DDF71D /* Body Fat.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EA017BF750900DDF71D /* Body Fat.png */; };
+		64BD0EB817BF750A00DDF71D /* Chart_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EA117BF750900DDF71D /* Chart_07.png */; };
+		64BD0EB917BF750A00DDF71D /* Chart.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EA217BF750900DDF71D /* Chart.png */; };
+		64BD0EBA17BF750A00DDF71D /* History_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EA317BF750900DDF71D /* History_07.png */; };
+		64BD0EBB17BF750A00DDF71D /* History.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EA417BF750900DDF71D /* History.png */; };
+		64BD0EBC17BF750A00DDF71D /* home_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EA517BF750900DDF71D /* home_07.png */; };
+		64BD0EBD17BF750A00DDF71D /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EA617BF750900DDF71D /* Home.png */; };
+		64BD0EBE17BF750A00DDF71D /* Measure_07 .png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EA717BF750900DDF71D /* Measure_07 .png */; };
+		64BD0EBF17BF750A00DDF71D /* Measure.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EA817BF750900DDF71D /* Measure.png */; };
+		64BD0EC017BF750A00DDF71D /* Oxygen .png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EA917BF750900DDF71D /* Oxygen .png */; };
+		64BD0EC117BF750A00DDF71D /* Oxygen_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EAA17BF750900DDF71D /* Oxygen_03.png */; };
+		64BD0EC217BF750A00DDF71D /* S.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EAB17BF750900DDF71D /* S.png */; };
+		64BD0EC317BF750A00DDF71D /* Settings_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EAC17BF750900DDF71D /* Settings_07.png */; };
+		64BD0EC417BF750A00DDF71D /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EAD17BF750900DDF71D /* Settings.png */; };
+		64BD0EC517BF750A00DDF71D /* Weight_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EAE17BF750900DDF71D /* Weight_03.png */; };
+		64BD0EC617BF750A00DDF71D /* Weight.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EAF17BF750A00DDF71D /* Weight.png */; };
+		64BD0EDF17BF830D00DDF71D /* Blood pressure_icon0.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EC717BF830600DDF71D /* Blood pressure_icon0.png */; };
+		64BD0EE017BF830D00DDF71D /* Blood sugar_button_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EC817BF830700DDF71D /* Blood sugar_button_03.png */; };
+		64BD0EE117BF830D00DDF71D /* Blood sugar_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EC917BF830700DDF71D /* Blood sugar_button.png */; };
+		64BD0EE217BF830D00DDF71D /* Blood sugar_icon_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0ECA17BF830700DDF71D /* Blood sugar_icon_07.png */; };
+		64BD0EE317BF830D00DDF71D /* Blood sugar_icon0.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0ECB17BF830700DDF71D /* Blood sugar_icon0.png */; };
+		64BD0EE417BF830D00DDF71D /* Body fat_button_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0ECC17BF830800DDF71D /* Body fat_button_03.png */; };
+		64BD0EE517BF830D00DDF71D /* Body fat_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0ECD17BF830800DDF71D /* Body fat_button.png */; };
+		64BD0EE617BF830D00DDF71D /* Body fat_icon_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0ECE17BF830800DDF71D /* Body fat_icon_07.png */; };
+		64BD0EE717BF830D00DDF71D /* Body fat_icon0.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0ECF17BF830900DDF71D /* Body fat_icon0.png */; };
+		64BD0EE817BF830D00DDF71D /* BodyFatMeasure_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0ED017BF830900DDF71D /* BodyFatMeasure_13.png */; };
+		64BD0EE917BF830D00DDF71D /* Date_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0ED117BF830900DDF71D /* Date_05.png */; };
+		64BD0EEA17BF830D00DDF71D /* Date.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0ED217BF830A00DDF71D /* Date.png */; };
+		64BD0EEB17BF830D00DDF71D /* Mail_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0ED317BF830A00DDF71D /* Mail_07.png */; };
+		64BD0EEC17BF830D00DDF71D /* Mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0ED417BF830A00DDF71D /* Mail.png */; };
+		64BD0EED17BF830D00DDF71D /* Oxygen_button_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0ED517BF830A00DDF71D /* Oxygen_button_03.png */; };
+		64BD0EEE17BF830D00DDF71D /* Oxygen_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0ED617BF830B00DDF71D /* Oxygen_button.png */; };
+		64BD0EEF17BF830D00DDF71D /* Oxygen_icon_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0ED717BF830B00DDF71D /* Oxygen_icon_07.png */; };
+		64BD0EF017BF830D00DDF71D /* Oxygen_icon0.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0ED817BF830B00DDF71D /* Oxygen_icon0.png */; };
+		64BD0EF117BF830D00DDF71D /* R_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0ED917BF830B00DDF71D /* R_6.png */; };
+		64BD0EF217BF830D00DDF71D /* R.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EDA17BF830B00DDF71D /* R.png */; };
+		64BD0EF317BF830D00DDF71D /* Weight_button_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EDB17BF830D00DDF71D /* Weight_button_03.png */; };
+		64BD0EF417BF830D00DDF71D /* Weight_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EDC17BF830D00DDF71D /* Weight_button.png */; };
+		64BD0EF517BF830D00DDF71D /* Weight_icon_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EDD17BF830D00DDF71D /* Weight_icon_07.png */; };
+		64BD0EF617BF830D00DDF71D /* Weight_icon0.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EDE17BF830D00DDF71D /* Weight_icon0.png */; };
+		64BD0F1717BF893900DDF71D /* 00_26.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EF717BF893500DDF71D /* 00_26.png */; };
+		64BD0F1817BF893900DDF71D /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EF817BF893500DDF71D /* 001.png */; };
+		64BD0F1917BF893900DDF71D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EF917BF893500DDF71D /* 2.png */; };
+		64BD0F1A17BF893900DDF71D /* 002.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EFA17BF893500DDF71D /* 002.png */; };
+		64BD0F1B17BF893900DDF71D /* 003.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EFB17BF893500DDF71D /* 003.png */; };
+		64BD0F1C17BF893900DDF71D /* 004.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EFC17BF893600DDF71D /* 004.png */; };
+		64BD0F1D17BF893900DDF71D /* 005.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EFD17BF893600DDF71D /* 005.png */; };
+		64BD0F1E17BF893900DDF71D /* 006.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EFE17BF893600DDF71D /* 006.png */; };
+		64BD0F1F17BF893900DDF71D /* 007.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0EFF17BF893600DDF71D /* 007.png */; };
+		64BD0F2017BF893900DDF71D /* 008.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F0017BF893600DDF71D /* 008.png */; };
+		64BD0F2117BF893900DDF71D /* 009.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F0117BF893600DDF71D /* 009.png */; };
+		64BD0F2217BF893900DDF71D /* 010.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F0217BF893600DDF71D /* 010.png */; };
+		64BD0F2317BF893900DDF71D /* Back_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F0317BF893600DDF71D /* Back_03.png */; };
+		64BD0F2417BF893900DDF71D /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F0417BF893700DDF71D /* Back.png */; };
+		64BD0F2517BF893900DDF71D /* Blood pressure_button_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F0517BF893700DDF71D /* Blood pressure_button_03.png */; };
+		64BD0F2617BF893900DDF71D /* Blood pressure_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F0617BF893700DDF71D /* Blood pressure_button.png */; };
+		64BD0F2717BF893900DDF71D /* Blood pressure_icon_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F0717BF893700DDF71D /* Blood pressure_icon_07.png */; };
+		64BD0F2817BF893900DDF71D /* list001.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F0817BF893700DDF71D /* list001.png */; };
+		64BD0F2917BF893900DDF71D /* list002.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F0917BF893700DDF71D /* list002.png */; };
+		64BD0F2A17BF893900DDF71D /* login001.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F0A17BF893700DDF71D /* login001.png */; };
+		64BD0F2B17BF893900DDF71D /* login002.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F0B17BF893700DDF71D /* login002.png */; };
+		64BD0F2C17BF893900DDF71D /* login003.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F0C17BF893800DDF71D /* login003.png */; };
+		64BD0F2D17BF893900DDF71D /* ly.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F0D17BF893800DDF71D /* ly.png */; };
+		64BD0F2E17BF893900DDF71D /* ly0.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F0E17BF893800DDF71D /* ly0.png */; };
+		64BD0F2F17BF893900DDF71D /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F0F17BF893800DDF71D /* password.png */; };
+		64BD0F3017BF893900DDF71D /* password3.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F1017BF893800DDF71D /* password3.png */; };
+		64BD0F3117BF893900DDF71D /* sc.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F1117BF893800DDF71D /* sc.png */; };
+		64BD0F3217BF893900DDF71D /* sd.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F1217BF893800DDF71D /* sd.png */; };
+		64BD0F3317BF893900DDF71D /* T.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F1317BF893900DDF71D /* T.png */; };
+		64BD0F3417BF893900DDF71D /* T0.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F1417BF893900DDF71D /* T0.png */; };
+		64BD0F3517BF893900DDF71D /* xc.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F1517BF893900DDF71D /* xc.png */; };
+		64BD0F3617BF893900DDF71D /* xd.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BD0F1617BF893900DDF71D /* xd.png */; };
+		64BF101B17CEEF84009682BA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BF101A17CEEF84009682BA /* Default.png */; };
+		64BF102117CEF7A9009682BA /* ehc_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BF102017CEF7A9009682BA /* ehc_icon.png */; };
+		64BF102417CEF850009682BA /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BF102317CEF850009682BA /* 57.png */; };
+		64C8924817ABB9E80081275B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C8924717ABB9E80081275B /* UIKit.framework */; };
+		64C8924A17ABB9E80081275B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C8924917ABB9E80081275B /* Foundation.framework */; };
+		64C8924C17ABB9E80081275B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C8924B17ABB9E80081275B /* CoreGraphics.framework */; };
+		64C8925217ABB9E80081275B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64C8925017ABB9E80081275B /* InfoPlist.strings */; };
+		64C8925417ABB9E80081275B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C8925317ABB9E80081275B /* main.m */; };
+		64C8925817ABB9E80081275B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C8925717ABB9E80081275B /* AppDelegate.m */; };
+		64C8925C17ABB9E80081275B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64C8925B17ABB9E80081275B /* Default@2x.png */; };
+		64C8925E17ABB9E80081275B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64C8925D17ABB9E80081275B /* Default-568h@2x.png */; };
+		64C8926617ABB9E80081275B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C8926517ABB9E80081275B /* SenTestingKit.framework */; };
+		64C8926717ABB9E80081275B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C8924717ABB9E80081275B /* UIKit.framework */; };
+		64C8926817ABB9E80081275B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C8924917ABB9E80081275B /* Foundation.framework */; };
+		64C8927017ABB9E80081275B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64C8926E17ABB9E80081275B /* InfoPlist.strings */; };
+		64C8927317ABB9E80081275B /* eBodyHealthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C8927217ABB9E80081275B /* eBodyHealthTests.m */; };
+		64C8927F17ABBA470081275B /* UserSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C8927D17ABBA470081275B /* UserSelectViewController.m */; };
+		64C8928017ABBA470081275B /* UserSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64C8927E17ABBA470081275B /* UserSelectViewController.xib */; };
+		64C8928B17ACDC3A0081275B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64C8928D17ACDC3A0081275B /* Localizable.strings */; };
+		64C8929217ACDD150081275B /* CreateUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C8929017ACDD140081275B /* CreateUserViewController.m */; };
+		64C8929317ACDD150081275B /* CreateUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64C8929117ACDD150081275B /* CreateUserViewController.xib */; };
+		64C8929717ACECA70081275B /* MeasureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C8929517ACECA70081275B /* MeasureViewController.m */; };
+		64C8929817ACECA70081275B /* MeasureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64C8929617ACECA70081275B /* MeasureViewController.xib */; };
+		64C8929C17ACEF5C0081275B /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C8929A17ACEF5B0081275B /* HistoryViewController.m */; };
+		64C8929D17ACEF5C0081275B /* HistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64C8929B17ACEF5B0081275B /* HistoryViewController.xib */; };
+		64C892A117ACEF6E0081275B /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C8929F17ACEF6E0081275B /* ChartViewController.m */; };
+		64C892A217ACEF6E0081275B /* ChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64C892A017ACEF6E0081275B /* ChartViewController.xib */; };
+		64C892A617ACEF910081275B /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C892A417ACEF910081275B /* SettingsViewController.m */; };
+		64C892A717ACEF910081275B /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64C892A517ACEF910081275B /* SettingsViewController.xib */; };
+		64C8946717B0C61E0081275B /* ChooseMeasureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C8946517B0C61B0081275B /* ChooseMeasureViewController.m */; };
+		64C8946817B0C61E0081275B /* ChooseMeasureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64C8946617B0C61C0081275B /* ChooseMeasureViewController.xib */; };
+		64C894FF17B101DB0081275B /* BloodPressMeasureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C894FD17B101D90081275B /* BloodPressMeasureViewController.m */; };
+		64C8950017B101DB0081275B /* BloodPressMeasureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64C894FE17B101DA0081275B /* BloodPressMeasureViewController.xib */; };
+		64C8950417B1035F0081275B /* BodyFatMeasureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C8950217B1035D0081275B /* BodyFatMeasureViewController.m */; };
+		64C8950517B1035F0081275B /* BodyFatMeasureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64C8950317B1035E0081275B /* BodyFatMeasureViewController.xib */; };
+		64C8950917B1039F0081275B /* OxygenMeasureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C8950717B1039C0081275B /* OxygenMeasureViewController.m */; };
+		64C8950A17B1039F0081275B /* OxygenMeasureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64C8950817B1039D0081275B /* OxygenMeasureViewController.xib */; };
+		64C8950E17B103DB0081275B /* GlucoseMeasureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C8950C17B103D90081275B /* GlucoseMeasureViewController.m */; };
+		64C8950F17B103DB0081275B /* GlucoseMeasureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64C8950D17B103DA0081275B /* GlucoseMeasureViewController.xib */; };
+		64CB928E17B889AF007A72DE /* TapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CB928D17B889AF007A72DE /* TapDetectingImageView.m */; };
+		64D3FCA717BA178A00AC93FF /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D3FCA617BA178A00AC93FF /* CoreBluetooth.framework */; };
+		64D3FD6717BA276B00AC93FF /* WeightDataCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D3FD6217BA276A00AC93FF /* WeightDataCell.m */; };
+		64D3FD6817BA276B00AC93FF /* WeightDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64D3FD6317BA276A00AC93FF /* WeightDataCell.xib */; };
+		64D3FD6917BA276B00AC93FF /* WeightMeasureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D3FD6517BA276B00AC93FF /* WeightMeasureViewController.m */; };
+		64D3FD6A17BA276B00AC93FF /* WeightMeasureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64D3FD6617BA276B00AC93FF /* WeightMeasureViewController.xib */; };
+		64D3FD6E17BA28A700AC93FF /* BodyfatDataCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D3FD6C17BA28A700AC93FF /* BodyfatDataCell.m */; };
+		64D3FD6F17BA28A700AC93FF /* BodyfatDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64D3FD6D17BA28A700AC93FF /* BodyfatDataCell.xib */; };
+		64D3FD7217BA382F00AC93FF /* MySingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D3FD7117BA382B00AC93FF /* MySingleton.m */; };
+		64E4AEDF17B4F27C0009A185 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E4AEDE17B4F27C0009A185 /* libsqlite3.dylib */; };
+		64FA800017D43C0C00924222 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FA7FFF17D43C0C00924222 /* AudioToolbox.framework */; };
+		64FA800317D43D3800924222 /* WQPlaySound.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FA800217D43D3800924222 /* WQPlaySound.m */; };
+		64FA800517D4619C00924222 /* tap.aif in Resources */ = {isa = PBXBuildFile; fileRef = 64FA800417D4619C00924222 /* tap.aif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64C8926917ABB9E80081275B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64C8923C17ABB9E80081275B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64C8924317ABB9E80081275B;
+			remoteInfo = eBodyHealth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		644EB02117D47EF00007A758 /* system.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = system.wav; sourceTree = "<group>"; };
+		644EB07A17D48BEC0007A758 /* Nova_Yes01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Nova_Yes01.wav; sourceTree = "<group>"; };
+		644EB07C17D4902C0007A758 /* Nova_Yes01en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Nova_Yes01en.wav; sourceTree = "<group>"; };
+		64A6999F17BB7B9000821F0D /* SettingUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingUserInfoViewController.h; path = ../SettingUserInfoViewController.h; sourceTree = "<group>"; };
+		64A699A017BB7B9000821F0D /* SettingUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingUserInfoViewController.m; path = ../SettingUserInfoViewController.m; sourceTree = "<group>"; };
+		64A699A117BB7B9000821F0D /* SettingUserInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingUserInfoViewController.xib; path = ../SettingUserInfoViewController.xib; sourceTree = "<group>"; };
+		64AA0E6D17C1F1F100F4FDD3 /* login_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_back.png; sourceTree = "<group>"; };
+		64B9E1AE188630AE00E896EC /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		64BBB10F17C605A40011B0FA /* CorePlot-CocoaTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CorePlot-CocoaTouch.h"; sourceTree = "<group>"; };
+		64BBB11017C605A40011B0FA /* CPTAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAnimation.h; sourceTree = "<group>"; };
+		64BBB11117C605A40011B0FA /* CPTAnimationOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAnimationOperation.h; sourceTree = "<group>"; };
+		64BBB11217C605A40011B0FA /* CPTAnimationPeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAnimationPeriod.h; sourceTree = "<group>"; };
+		64BBB11317C605A40011B0FA /* CPTAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAnnotation.h; sourceTree = "<group>"; };
+		64BBB11417C605A40011B0FA /* CPTAnnotationHostLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAnnotationHostLayer.h; sourceTree = "<group>"; };
+		64BBB11517C605A40011B0FA /* CPTAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxis.h; sourceTree = "<group>"; };
+		64BBB11617C605A40011B0FA /* CPTAxisLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxisLabel.h; sourceTree = "<group>"; };
+		64BBB11717C605A40011B0FA /* CPTAxisLabelGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxisLabelGroup.h; sourceTree = "<group>"; };
+		64BBB11817C605A40011B0FA /* CPTAxisSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxisSet.h; sourceTree = "<group>"; };
+		64BBB11917C605A40011B0FA /* CPTAxisTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxisTitle.h; sourceTree = "<group>"; };
+		64BBB11A17C605A40011B0FA /* CPTBarPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTBarPlot.h; sourceTree = "<group>"; };
+		64BBB11B17C605A40011B0FA /* CPTBorderedLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTBorderedLayer.h; sourceTree = "<group>"; };
+		64BBB11C17C605A40011B0FA /* CPTCalendarFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTCalendarFormatter.h; sourceTree = "<group>"; };
+		64BBB11D17C605A40011B0FA /* CPTColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTColor.h; sourceTree = "<group>"; };
+		64BBB11E17C605A40011B0FA /* CPTColorSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTColorSpace.h; sourceTree = "<group>"; };
+		64BBB11F17C605A40011B0FA /* CPTConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTConstraints.h; sourceTree = "<group>"; };
+		64BBB12017C605A40011B0FA /* CPTDataSourceTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTDataSourceTestCase.h; sourceTree = "<group>"; };
+		64BBB12117C605A40011B0FA /* CPTDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTDefinitions.h; sourceTree = "<group>"; };
+		64BBB12217C605A40011B0FA /* CPTDerivedXYGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTDerivedXYGraph.h; sourceTree = "<group>"; };
+		64BBB12317C605A40011B0FA /* CPTExceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTExceptions.h; sourceTree = "<group>"; };
+		64BBB12417C605A40011B0FA /* CPTFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTFill.h; sourceTree = "<group>"; };
+		64BBB12517C605A40011B0FA /* CPTGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGradient.h; sourceTree = "<group>"; };
+		64BBB12617C605A40011B0FA /* CPTGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGraph.h; sourceTree = "<group>"; };
+		64BBB12717C605A40011B0FA /* CPTGraphHostingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGraphHostingView.h; sourceTree = "<group>"; };
+		64BBB12817C605A40011B0FA /* CPTGridLineGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGridLineGroup.h; sourceTree = "<group>"; };
+		64BBB12917C605A40011B0FA /* CPTGridLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGridLines.h; sourceTree = "<group>"; };
+		64BBB12A17C605A40011B0FA /* CPTImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTImage.h; sourceTree = "<group>"; };
+		64BBB12B17C605A40011B0FA /* CPTLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLayer.h; sourceTree = "<group>"; };
+		64BBB12C17C605A40011B0FA /* CPTLayerAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLayerAnnotation.h; sourceTree = "<group>"; };
+		64BBB12D17C605A40011B0FA /* CPTLegend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLegend.h; sourceTree = "<group>"; };
+		64BBB12E17C605A40011B0FA /* CPTLegendEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLegendEntry.h; sourceTree = "<group>"; };
+		64BBB12F17C605A40011B0FA /* CPTLimitBand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLimitBand.h; sourceTree = "<group>"; };
+		64BBB13017C605A40011B0FA /* CPTLineCap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLineCap.h; sourceTree = "<group>"; };
+		64BBB13117C605A40011B0FA /* CPTLineStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLineStyle.h; sourceTree = "<group>"; };
+		64BBB13217C605A40011B0FA /* CPTMutableLineStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutableLineStyle.h; sourceTree = "<group>"; };
+		64BBB13317C605A40011B0FA /* CPTMutableNumericData+TypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CPTMutableNumericData+TypeConversion.h"; sourceTree = "<group>"; };
+		64BBB13417C605A40011B0FA /* CPTMutableNumericData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutableNumericData.h; sourceTree = "<group>"; };
+		64BBB13517C605A40011B0FA /* CPTMutablePlotRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutablePlotRange.h; sourceTree = "<group>"; };
+		64BBB13617C605A40011B0FA /* CPTMutableShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutableShadow.h; sourceTree = "<group>"; };
+		64BBB13717C605A40011B0FA /* CPTMutableTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutableTextStyle.h; sourceTree = "<group>"; };
+		64BBB13817C605A40011B0FA /* CPTNumericData+TypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CPTNumericData+TypeConversion.h"; sourceTree = "<group>"; };
+		64BBB13917C605A40011B0FA /* CPTNumericData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTNumericData.h; sourceTree = "<group>"; };
+		64BBB13A17C605A40011B0FA /* CPTNumericDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTNumericDataType.h; sourceTree = "<group>"; };
+		64BBB13B17C605A40011B0FA /* CPTPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPathExtensions.h; sourceTree = "<group>"; };
+		64BBB13C17C605A40011B0FA /* CPTPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPieChart.h; sourceTree = "<group>"; };
+		64BBB13D17C605A40011B0FA /* CPTPlatformSpecificCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlatformSpecificCategories.h; sourceTree = "<group>"; };
+		64BBB13E17C605A40011B0FA /* CPTPlatformSpecificDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlatformSpecificDefines.h; sourceTree = "<group>"; };
+		64BBB13F17C605A40011B0FA /* CPTPlatformSpecificFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlatformSpecificFunctions.h; sourceTree = "<group>"; };
+		64BBB14017C605A40011B0FA /* CPTPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlot.h; sourceTree = "<group>"; };
+		64BBB14117C605A40011B0FA /* CPTPlotArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotArea.h; sourceTree = "<group>"; };
+		64BBB14217C605A40011B0FA /* CPTPlotAreaFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotAreaFrame.h; sourceTree = "<group>"; };
+		64BBB14317C605A40011B0FA /* CPTPlotGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotGroup.h; sourceTree = "<group>"; };
+		64BBB14417C605A40011B0FA /* CPTPlotRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotRange.h; sourceTree = "<group>"; };
+		64BBB14517C605A40011B0FA /* CPTPlotSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotSpace.h; sourceTree = "<group>"; };
+		64BBB14617C605A40011B0FA /* CPTPlotSpaceAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotSpaceAnnotation.h; sourceTree = "<group>"; };
+		64BBB14717C605A40011B0FA /* CPTPlotSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotSymbol.h; sourceTree = "<group>"; };
+		64BBB14817C605A40011B0FA /* CPTRangePlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTRangePlot.h; sourceTree = "<group>"; };
+		64BBB14917C605A40011B0FA /* CPTResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTResponder.h; sourceTree = "<group>"; };
+		64BBB14A17C605A40011B0FA /* CPTScatterPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTScatterPlot.h; sourceTree = "<group>"; };
+		64BBB14B17C605A40011B0FA /* CPTShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTShadow.h; sourceTree = "<group>"; };
+		64BBB14C17C605A40011B0FA /* CPTTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTestCase.h; sourceTree = "<group>"; };
+		64BBB14D17C605A40011B0FA /* CPTTextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTextLayer.h; sourceTree = "<group>"; };
+		64BBB14E17C605A40011B0FA /* CPTTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTextStyle.h; sourceTree = "<group>"; };
+		64BBB14F17C605A40011B0FA /* CPTTextStylePlatformSpecific.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTextStylePlatformSpecific.h; sourceTree = "<group>"; };
+		64BBB15017C605A40011B0FA /* CPTTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTheme.h; sourceTree = "<group>"; };
+		64BBB15117C605A40011B0FA /* CPTTimeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTimeFormatter.h; sourceTree = "<group>"; };
+		64BBB15217C605A40011B0FA /* CPTTradingRangePlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTradingRangePlot.h; sourceTree = "<group>"; };
+		64BBB15317C605A40011B0FA /* CPTUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTUtilities.h; sourceTree = "<group>"; };
+		64BBB15417C605A40011B0FA /* CPTXYAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTXYAxis.h; sourceTree = "<group>"; };
+		64BBB15517C605A40011B0FA /* CPTXYAxisSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTXYAxisSet.h; sourceTree = "<group>"; };
+		64BBB15617C605A40011B0FA /* CPTXYGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTXYGraph.h; sourceTree = "<group>"; };
+		64BBB15717C605A40011B0FA /* CPTXYPlotSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTXYPlotSpace.h; sourceTree = "<group>"; };
+		64BBB15817C605A40011B0FA /* mainpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainpage.h; sourceTree = "<group>"; };
+		64BBB15917C605A40011B0FA /* NSCoderExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCoderExtensions.h; sourceTree = "<group>"; };
+		64BBB15A17C605A40011B0FA /* NSDecimalNumberExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDecimalNumberExtensions.h; sourceTree = "<group>"; };
+		64BBB15B17C605A40011B0FA /* NSNumberExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNumberExtensions.h; sourceTree = "<group>"; };
+		64BBB15C17C605B20011B0FA /* libCorePlot-CocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libCorePlot-CocoaTouch.a"; sourceTree = "<group>"; };
+		64BCF03817C72EAC00D09187 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		64BD0E9917BF750900DDF71D /* 04-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-05.png"; sourceTree = "<group>"; };
+		64BD0E9A17BF750900DDF71D /* 04-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-06.png"; sourceTree = "<group>"; };
+		64BD0E9B17BF750900DDF71D /* Blood pressure_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blood pressure_03.png"; sourceTree = "<group>"; };
+		64BD0E9C17BF750900DDF71D /* Blood pressure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blood pressure.png"; sourceTree = "<group>"; };
+		64BD0E9D17BF750900DDF71D /* Blood sugar .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blood sugar .png"; sourceTree = "<group>"; };
+		64BD0E9E17BF750900DDF71D /* Blood sugar_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blood sugar_03.png"; sourceTree = "<group>"; };
+		64BD0E9F17BF750900DDF71D /* Body Fat_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Body Fat_03.png"; sourceTree = "<group>"; };
+		64BD0EA017BF750900DDF71D /* Body Fat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Body Fat.png"; sourceTree = "<group>"; };
+		64BD0EA117BF750900DDF71D /* Chart_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chart_07.png; sourceTree = "<group>"; };
+		64BD0EA217BF750900DDF71D /* Chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chart.png; sourceTree = "<group>"; };
+		64BD0EA317BF750900DDF71D /* History_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = History_07.png; sourceTree = "<group>"; };
+		64BD0EA417BF750900DDF71D /* History.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = History.png; sourceTree = "<group>"; };
+		64BD0EA517BF750900DDF71D /* home_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_07.png; sourceTree = "<group>"; };
+		64BD0EA617BF750900DDF71D /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		64BD0EA717BF750900DDF71D /* Measure_07 .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Measure_07 .png"; sourceTree = "<group>"; };
+		64BD0EA817BF750900DDF71D /* Measure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Measure.png; sourceTree = "<group>"; };
+		64BD0EA917BF750900DDF71D /* Oxygen .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oxygen .png"; sourceTree = "<group>"; };
+		64BD0EAA17BF750900DDF71D /* Oxygen_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Oxygen_03.png; sourceTree = "<group>"; };
+		64BD0EAB17BF750900DDF71D /* S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = S.png; sourceTree = "<group>"; };
+		64BD0EAC17BF750900DDF71D /* Settings_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings_07.png; sourceTree = "<group>"; };
+		64BD0EAD17BF750900DDF71D /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
+		64BD0EAE17BF750900DDF71D /* Weight_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Weight_03.png; sourceTree = "<group>"; };
+		64BD0EAF17BF750A00DDF71D /* Weight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Weight.png; sourceTree = "<group>"; };
+		64BD0EC717BF830600DDF71D /* Blood pressure_icon0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blood pressure_icon0.png"; sourceTree = "<group>"; };
+		64BD0EC817BF830700DDF71D /* Blood sugar_button_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blood sugar_button_03.png"; sourceTree = "<group>"; };
+		64BD0EC917BF830700DDF71D /* Blood sugar_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blood sugar_button.png"; sourceTree = "<group>"; };
+		64BD0ECA17BF830700DDF71D /* Blood sugar_icon_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blood sugar_icon_07.png"; sourceTree = "<group>"; };
+		64BD0ECB17BF830700DDF71D /* Blood sugar_icon0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blood sugar_icon0.png"; sourceTree = "<group>"; };
+		64BD0ECC17BF830800DDF71D /* Body fat_button_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Body fat_button_03.png"; sourceTree = "<group>"; };
+		64BD0ECD17BF830800DDF71D /* Body fat_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Body fat_button.png"; sourceTree = "<group>"; };
+		64BD0ECE17BF830800DDF71D /* Body fat_icon_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Body fat_icon_07.png"; sourceTree = "<group>"; };
+		64BD0ECF17BF830900DDF71D /* Body fat_icon0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Body fat_icon0.png"; sourceTree = "<group>"; };
+		64BD0ED017BF830900DDF71D /* BodyFatMeasure_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BodyFatMeasure_13.png; sourceTree = "<group>"; };
+		64BD0ED117BF830900DDF71D /* Date_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Date_05.png; sourceTree = "<group>"; };
+		64BD0ED217BF830A00DDF71D /* Date.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Date.png; sourceTree = "<group>"; };
+		64BD0ED317BF830A00DDF71D /* Mail_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mail_07.png; sourceTree = "<group>"; };
+		64BD0ED417BF830A00DDF71D /* Mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mail.png; sourceTree = "<group>"; };
+		64BD0ED517BF830A00DDF71D /* Oxygen_button_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Oxygen_button_03.png; sourceTree = "<group>"; };
+		64BD0ED617BF830B00DDF71D /* Oxygen_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Oxygen_button.png; sourceTree = "<group>"; };
+		64BD0ED717BF830B00DDF71D /* Oxygen_icon_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Oxygen_icon_07.png; sourceTree = "<group>"; };
+		64BD0ED817BF830B00DDF71D /* Oxygen_icon0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Oxygen_icon0.png; sourceTree = "<group>"; };
+		64BD0ED917BF830B00DDF71D /* R_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = R_6.png; sourceTree = "<group>"; };
+		64BD0EDA17BF830B00DDF71D /* R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = R.png; sourceTree = "<group>"; };
+		64BD0EDB17BF830D00DDF71D /* Weight_button_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Weight_button_03.png; sourceTree = "<group>"; };
+		64BD0EDC17BF830D00DDF71D /* Weight_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Weight_button.png; sourceTree = "<group>"; };
+		64BD0EDD17BF830D00DDF71D /* Weight_icon_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Weight_icon_07.png; sourceTree = "<group>"; };
+		64BD0EDE17BF830D00DDF71D /* Weight_icon0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Weight_icon0.png; sourceTree = "<group>"; };
+		64BD0EF717BF893500DDF71D /* 00_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 00_26.png; sourceTree = "<group>"; };
+		64BD0EF817BF893500DDF71D /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
+		64BD0EF917BF893500DDF71D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		64BD0EFA17BF893500DDF71D /* 002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 002.png; sourceTree = "<group>"; };
+		64BD0EFB17BF893500DDF71D /* 003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 003.png; sourceTree = "<group>"; };
+		64BD0EFC17BF893600DDF71D /* 004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 004.png; sourceTree = "<group>"; };
+		64BD0EFD17BF893600DDF71D /* 005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 005.png; sourceTree = "<group>"; };
+		64BD0EFE17BF893600DDF71D /* 006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 006.png; sourceTree = "<group>"; };
+		64BD0EFF17BF893600DDF71D /* 007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 007.png; sourceTree = "<group>"; };
+		64BD0F0017BF893600DDF71D /* 008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 008.png; sourceTree = "<group>"; };
+		64BD0F0117BF893600DDF71D /* 009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 009.png; sourceTree = "<group>"; };
+		64BD0F0217BF893600DDF71D /* 010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 010.png; sourceTree = "<group>"; };
+		64BD0F0317BF893600DDF71D /* Back_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back_03.png; sourceTree = "<group>"; };
+		64BD0F0417BF893700DDF71D /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
+		64BD0F0517BF893700DDF71D /* Blood pressure_button_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blood pressure_button_03.png"; sourceTree = "<group>"; };
+		64BD0F0617BF893700DDF71D /* Blood pressure_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blood pressure_button.png"; sourceTree = "<group>"; };
+		64BD0F0717BF893700DDF71D /* Blood pressure_icon_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blood pressure_icon_07.png"; sourceTree = "<group>"; };
+		64BD0F0817BF893700DDF71D /* list001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list001.png; sourceTree = "<group>"; };
+		64BD0F0917BF893700DDF71D /* list002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list002.png; sourceTree = "<group>"; };
+		64BD0F0A17BF893700DDF71D /* login001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login001.png; sourceTree = "<group>"; };
+		64BD0F0B17BF893700DDF71D /* login002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login002.png; sourceTree = "<group>"; };
+		64BD0F0C17BF893800DDF71D /* login003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login003.png; sourceTree = "<group>"; };
+		64BD0F0D17BF893800DDF71D /* ly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ly.png; sourceTree = "<group>"; };
+		64BD0F0E17BF893800DDF71D /* ly0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ly0.png; sourceTree = "<group>"; };
+		64BD0F0F17BF893800DDF71D /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
+		64BD0F1017BF893800DDF71D /* password3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password3.png; sourceTree = "<group>"; };
+		64BD0F1117BF893800DDF71D /* sc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sc.png; sourceTree = "<group>"; };
+		64BD0F1217BF893800DDF71D /* sd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sd.png; sourceTree = "<group>"; };
+		64BD0F1317BF893900DDF71D /* T.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T.png; sourceTree = "<group>"; };
+		64BD0F1417BF893900DDF71D /* T0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T0.png; sourceTree = "<group>"; };
+		64BD0F1517BF893900DDF71D /* xc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xc.png; sourceTree = "<group>"; };
+		64BD0F1617BF893900DDF71D /* xd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xd.png; sourceTree = "<group>"; };
+		64BF101A17CEEF84009682BA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		64BF102017CEF7A9009682BA /* ehc_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ehc_icon.png; sourceTree = "<group>"; };
+		64BF102317CEF850009682BA /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
+		64C8924417ABB9E80081275B /* eBodyHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eBodyHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C8924717ABB9E80081275B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64C8924917ABB9E80081275B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64C8924B17ABB9E80081275B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64C8924F17ABB9E80081275B /* eBodyHealth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eBodyHealth-Info.plist"; sourceTree = "<group>"; };
+		64C8925117ABB9E80081275B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64C8925317ABB9E80081275B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64C8925517ABB9E80081275B /* eBodyHealth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eBodyHealth-Prefix.pch"; sourceTree = "<group>"; };
+		64C8925617ABB9E80081275B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64C8925717ABB9E80081275B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64C8925917ABB9E80081275B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		64C8925B17ABB9E80081275B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		64C8925D17ABB9E80081275B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		64C8926417ABB9E80081275B /* eBodyHealthTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eBodyHealthTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C8926517ABB9E80081275B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		64C8926D17ABB9E80081275B /* eBodyHealthTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eBodyHealthTests-Info.plist"; sourceTree = "<group>"; };
+		64C8926F17ABB9E80081275B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64C8927117ABB9E80081275B /* eBodyHealthTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eBodyHealthTests.h; sourceTree = "<group>"; };
+		64C8927217ABB9E80081275B /* eBodyHealthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eBodyHealthTests.m; sourceTree = "<group>"; };
+		64C8927C17ABBA470081275B /* UserSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserSelectViewController.h; path = ../UserSelectViewController.h; sourceTree = "<group>"; };
+		64C8927D17ABBA470081275B /* UserSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserSelectViewController.m; path = ../UserSelectViewController.m; sourceTree = "<group>"; };
+		64C8927E17ABBA470081275B /* UserSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserSelectViewController.xib; path = ../UserSelectViewController.xib; sourceTree = "<group>"; };
+		64C8928117ACD9E10081275B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		64C8928217ACD9E10081275B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		64C8928C17ACDC3A0081275B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		64C8928E17ACDC400081275B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		64C8928F17ACDD140081275B /* CreateUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateUserViewController.h; sourceTree = "<group>"; };
+		64C8929017ACDD140081275B /* CreateUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateUserViewController.m; sourceTree = "<group>"; };
+		64C8929117ACDD150081275B /* CreateUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateUserViewController.xib; sourceTree = "<group>"; };
+		64C8929417ACECA70081275B /* MeasureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeasureViewController.h; path = ../MeasureViewController.h; sourceTree = "<group>"; };
+		64C8929517ACECA70081275B /* MeasureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeasureViewController.m; path = ../MeasureViewController.m; sourceTree = "<group>"; };
+		64C8929617ACECA70081275B /* MeasureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MeasureViewController.xib; path = ../MeasureViewController.xib; sourceTree = "<group>"; };
+		64C8929917ACEF5B0081275B /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HistoryViewController.h; path = ../HistoryViewController.h; sourceTree = "<group>"; };
+		64C8929A17ACEF5B0081275B /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HistoryViewController.m; path = ../HistoryViewController.m; sourceTree = "<group>"; };
+		64C8929B17ACEF5B0081275B /* HistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HistoryViewController.xib; path = ../HistoryViewController.xib; sourceTree = "<group>"; };
+		64C8929E17ACEF6E0081275B /* ChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChartViewController.h; path = ../ChartViewController.h; sourceTree = "<group>"; };
+		64C8929F17ACEF6E0081275B /* ChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChartViewController.m; path = ../ChartViewController.m; sourceTree = "<group>"; };
+		64C892A017ACEF6E0081275B /* ChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChartViewController.xib; path = ../ChartViewController.xib; sourceTree = "<group>"; };
+		64C892A317ACEF910081275B /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../SettingsViewController.h; sourceTree = "<group>"; };
+		64C892A417ACEF910081275B /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../SettingsViewController.m; sourceTree = "<group>"; };
+		64C892A517ACEF910081275B /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = ../SettingsViewController.xib; sourceTree = "<group>"; };
+		64C8946417B0C61A0081275B /* ChooseMeasureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChooseMeasureViewController.h; path = ../ChooseMeasureViewController.h; sourceTree = "<group>"; };
+		64C8946517B0C61B0081275B /* ChooseMeasureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChooseMeasureViewController.m; path = ../ChooseMeasureViewController.m; sourceTree = "<group>"; };
+		64C8946617B0C61C0081275B /* ChooseMeasureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChooseMeasureViewController.xib; path = ../ChooseMeasureViewController.xib; sourceTree = "<group>"; };
+		64C894FC17B101D90081275B /* BloodPressMeasureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BloodPressMeasureViewController.h; path = ../BloodPressMeasureViewController.h; sourceTree = "<group>"; };
+		64C894FD17B101D90081275B /* BloodPressMeasureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BloodPressMeasureViewController.m; path = ../BloodPressMeasureViewController.m; sourceTree = "<group>"; };
+		64C894FE17B101DA0081275B /* BloodPressMeasureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BloodPressMeasureViewController.xib; path = ../BloodPressMeasureViewController.xib; sourceTree = "<group>"; };
+		64C8950117B1035C0081275B /* BodyFatMeasureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BodyFatMeasureViewController.h; path = ../BodyFatMeasureViewController.h; sourceTree = "<group>"; };
+		64C8950217B1035D0081275B /* BodyFatMeasureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BodyFatMeasureViewController.m; path = ../BodyFatMeasureViewController.m; sourceTree = "<group>"; };
+		64C8950317B1035E0081275B /* BodyFatMeasureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BodyFatMeasureViewController.xib; path = ../BodyFatMeasureViewController.xib; sourceTree = "<group>"; };
+		64C8950617B1039B0081275B /* OxygenMeasureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OxygenMeasureViewController.h; path = ../OxygenMeasureViewController.h; sourceTree = "<group>"; };
+		64C8950717B1039C0081275B /* OxygenMeasureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OxygenMeasureViewController.m; path = ../OxygenMeasureViewController.m; sourceTree = "<group>"; };
+		64C8950817B1039D0081275B /* OxygenMeasureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OxygenMeasureViewController.xib; path = ../OxygenMeasureViewController.xib; sourceTree = "<group>"; };
+		64C8950B17B103D90081275B /* GlucoseMeasureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GlucoseMeasureViewController.h; path = ../GlucoseMeasureViewController.h; sourceTree = "<group>"; };
+		64C8950C17B103D90081275B /* GlucoseMeasureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GlucoseMeasureViewController.m; path = ../GlucoseMeasureViewController.m; sourceTree = "<group>"; };
+		64C8950D17B103DA0081275B /* GlucoseMeasureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GlucoseMeasureViewController.xib; path = ../GlucoseMeasureViewController.xib; sourceTree = "<group>"; };
+		64CB928C17B889AF007A72DE /* TapDetectingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TapDetectingImageView.h; path = TapDetectingImageView/TapDetectingImageView.h; sourceTree = "<group>"; };
+		64CB928D17B889AF007A72DE /* TapDetectingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TapDetectingImageView.m; path = TapDetectingImageView/TapDetectingImageView.m; sourceTree = "<group>"; };
+		64D3FCA617BA178A00AC93FF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		64D3FD6117BA276A00AC93FF /* WeightDataCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeightDataCell.h; path = ../WeightDataCell.h; sourceTree = "<group>"; };
+		64D3FD6217BA276A00AC93FF /* WeightDataCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeightDataCell.m; path = ../WeightDataCell.m; sourceTree = "<group>"; };
+		64D3FD6317BA276A00AC93FF /* WeightDataCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WeightDataCell.xib; path = ../WeightDataCell.xib; sourceTree = "<group>"; };
+		64D3FD6417BA276B00AC93FF /* WeightMeasureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeightMeasureViewController.h; path = ../WeightMeasureViewController.h; sourceTree = "<group>"; };
+		64D3FD6517BA276B00AC93FF /* WeightMeasureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeightMeasureViewController.m; path = ../WeightMeasureViewController.m; sourceTree = "<group>"; };
+		64D3FD6617BA276B00AC93FF /* WeightMeasureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WeightMeasureViewController.xib; path = ../WeightMeasureViewController.xib; sourceTree = "<group>"; };
+		64D3FD6B17BA28A700AC93FF /* BodyfatDataCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyfatDataCell.h; sourceTree = SOURCE_ROOT; };
+		64D3FD6C17BA28A700AC93FF /* BodyfatDataCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BodyfatDataCell.m; sourceTree = SOURCE_ROOT; };
+		64D3FD6D17BA28A700AC93FF /* BodyfatDataCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BodyfatDataCell.xib; sourceTree = SOURCE_ROOT; };
+		64D3FD7017BA382900AC93FF /* MySingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySingleton.h; sourceTree = "<group>"; };
+		64D3FD7117BA382B00AC93FF /* MySingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySingleton.m; sourceTree = "<group>"; };
+		64E4AEDE17B4F27C0009A185 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		64FA7FFF17D43C0C00924222 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		64FA800117D43D3800924222 /* WQPlaySound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQPlaySound.h; sourceTree = "<group>"; };
+		64FA800217D43D3800924222 /* WQPlaySound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQPlaySound.m; sourceTree = "<group>"; };
+		64FA800417D4619C00924222 /* tap.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = tap.aif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64C8924117ABB9E80081275B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FA800017D43C0C00924222 /* AudioToolbox.framework in Frameworks */,
+				64BCF03917C72EAD00D09187 /* QuartzCore.framework in Frameworks */,
+				64C8924C17ABB9E80081275B /* CoreGraphics.framework in Frameworks */,
+				64D3FCA717BA178A00AC93FF /* CoreBluetooth.framework in Frameworks */,
+				64E4AEDF17B4F27C0009A185 /* libsqlite3.dylib in Frameworks */,
+				64C8924817ABB9E80081275B /* UIKit.framework in Frameworks */,
+				64C8924A17ABB9E80081275B /* Foundation.framework in Frameworks */,
+				64BBB15D17C605B20011B0FA /* libCorePlot-CocoaTouch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C8926017ABB9E80081275B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C8926617ABB9E80081275B /* SenTestingKit.framework in Frameworks */,
+				64C8926717ABB9E80081275B /* UIKit.framework in Frameworks */,
+				64C8926817ABB9E80081275B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64BBB10E17C605A40011B0FA /* CorePlotHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				64BBB10F17C605A40011B0FA /* CorePlot-CocoaTouch.h */,
+				64BBB11017C605A40011B0FA /* CPTAnimation.h */,
+				64BBB11117C605A40011B0FA /* CPTAnimationOperation.h */,
+				64BBB11217C605A40011B0FA /* CPTAnimationPeriod.h */,
+				64BBB11317C605A40011B0FA /* CPTAnnotation.h */,
+				64BBB11417C605A40011B0FA /* CPTAnnotationHostLayer.h */,
+				64BBB11517C605A40011B0FA /* CPTAxis.h */,
+				64BBB11617C605A40011B0FA /* CPTAxisLabel.h */,
+				64BBB11717C605A40011B0FA /* CPTAxisLabelGroup.h */,
+				64BBB11817C605A40011B0FA /* CPTAxisSet.h */,
+				64BBB11917C605A40011B0FA /* CPTAxisTitle.h */,
+				64BBB11A17C605A40011B0FA /* CPTBarPlot.h */,
+				64BBB11B17C605A40011B0FA /* CPTBorderedLayer.h */,
+				64BBB11C17C605A40011B0FA /* CPTCalendarFormatter.h */,
+				64BBB11D17C605A40011B0FA /* CPTColor.h */,
+				64BBB11E17C605A40011B0FA /* CPTColorSpace.h */,
+				64BBB11F17C605A40011B0FA /* CPTConstraints.h */,
+				64BBB12017C605A40011B0FA /* CPTDataSourceTestCase.h */,
+				64BBB12117C605A40011B0FA /* CPTDefinitions.h */,
+				64BBB12217C605A40011B0FA /* CPTDerivedXYGraph.h */,
+				64BBB12317C605A40011B0FA /* CPTExceptions.h */,
+				64BBB12417C605A40011B0FA /* CPTFill.h */,
+				64BBB12517C605A40011B0FA /* CPTGradient.h */,
+				64BBB12617C605A40011B0FA /* CPTGraph.h */,
+				64BBB12717C605A40011B0FA /* CPTGraphHostingView.h */,
+				64BBB12817C605A40011B0FA /* CPTGridLineGroup.h */,
+				64BBB12917C605A40011B0FA /* CPTGridLines.h */,
+				64BBB12A17C605A40011B0FA /* CPTImage.h */,
+				64BBB12B17C605A40011B0FA /* CPTLayer.h */,
+				64BBB12C17C605A40011B0FA /* CPTLayerAnnotation.h */,
+				64BBB12D17C605A40011B0FA /* CPTLegend.h */,
+				64BBB12E17C605A40011B0FA /* CPTLegendEntry.h */,
+				64BBB12F17C605A40011B0FA /* CPTLimitBand.h */,
+				64BBB13017C605A40011B0FA /* CPTLineCap.h */,
+				64BBB13117C605A40011B0FA /* CPTLineStyle.h */,
+				64BBB13217C605A40011B0FA /* CPTMutableLineStyle.h */,
+				64BBB13317C605A40011B0FA /* CPTMutableNumericData+TypeConversion.h */,
+				64BBB13417C605A40011B0FA /* CPTMutableNumericData.h */,
+				64BBB13517C605A40011B0FA /* CPTMutablePlotRange.h */,
+				64BBB13617C605A40011B0FA /* CPTMutableShadow.h */,
+				64BBB13717C605A40011B0FA /* CPTMutableTextStyle.h */,
+				64BBB13817C605A40011B0FA /* CPTNumericData+TypeConversion.h */,
+				64BBB13917C605A40011B0FA /* CPTNumericData.h */,
+				64BBB13A17C605A40011B0FA /* CPTNumericDataType.h */,
+				64BBB13B17C605A40011B0FA /* CPTPathExtensions.h */,
+				64BBB13C17C605A40011B0FA /* CPTPieChart.h */,
+				64BBB13D17C605A40011B0FA /* CPTPlatformSpecificCategories.h */,
+				64BBB13E17C605A40011B0FA /* CPTPlatformSpecificDefines.h */,
+				64BBB13F17C605A40011B0FA /* CPTPlatformSpecificFunctions.h */,
+				64BBB14017C605A40011B0FA /* CPTPlot.h */,
+				64BBB14117C605A40011B0FA /* CPTPlotArea.h */,
+				64BBB14217C605A40011B0FA /* CPTPlotAreaFrame.h */,
+				64BBB14317C605A40011B0FA /* CPTPlotGroup.h */,
+				64BBB14417C605A40011B0FA /* CPTPlotRange.h */,
+				64BBB14517C605A40011B0FA /* CPTPlotSpace.h */,
+				64BBB14617C605A40011B0FA /* CPTPlotSpaceAnnotation.h */,
+				64BBB14717C605A40011B0FA /* CPTPlotSymbol.h */,
+				64BBB14817C605A40011B0FA /* CPTRangePlot.h */,
+				64BBB14917C605A40011B0FA /* CPTResponder.h */,
+				64BBB14A17C605A40011B0FA /* CPTScatterPlot.h */,
+				64BBB14B17C605A40011B0FA /* CPTShadow.h */,
+				64BBB14C17C605A40011B0FA /* CPTTestCase.h */,
+				64BBB14D17C605A40011B0FA /* CPTTextLayer.h */,
+				64BBB14E17C605A40011B0FA /* CPTTextStyle.h */,
+				64BBB14F17C605A40011B0FA /* CPTTextStylePlatformSpecific.h */,
+				64BBB15017C605A40011B0FA /* CPTTheme.h */,
+				64BBB15117C605A40011B0FA /* CPTTimeFormatter.h */,
+				64BBB15217C605A40011B0FA /* CPTTradingRangePlot.h */,
+				64BBB15317C605A40011B0FA /* CPTUtilities.h */,
+				64BBB15417C605A40011B0FA /* CPTXYAxis.h */,
+				64BBB15517C605A40011B0FA /* CPTXYAxisSet.h */,
+				64BBB15617C605A40011B0FA /* CPTXYGraph.h */,
+				64BBB15717C605A40011B0FA /* CPTXYPlotSpace.h */,
+				64BBB15817C605A40011B0FA /* mainpage.h */,
+				64BBB15917C605A40011B0FA /* NSCoderExtensions.h */,
+				64BBB15A17C605A40011B0FA /* NSDecimalNumberExtensions.h */,
+				64BBB15B17C605A40011B0FA /* NSNumberExtensions.h */,
+			);
+			path = CorePlotHeaders;
+			sourceTree = "<group>";
+		};
+		64BD0E6817BF5D4F00DDF71D /* newimage */ = {
+			isa = PBXGroup;
+			children = (
+				64AA0E6D17C1F1F100F4FDD3 /* login_back.png */,
+				64BD0EF717BF893500DDF71D /* 00_26.png */,
+				64BD0EF817BF893500DDF71D /* 001.png */,
+				64BD0EF917BF893500DDF71D /* 2.png */,
+				64BD0EFA17BF893500DDF71D /* 002.png */,
+				64BD0EFB17BF893500DDF71D /* 003.png */,
+				64BD0EFC17BF893600DDF71D /* 004.png */,
+				64BD0EFD17BF893600DDF71D /* 005.png */,
+				64BD0EFE17BF893600DDF71D /* 006.png */,
+				64BD0EFF17BF893600DDF71D /* 007.png */,
+				64BD0F0017BF893600DDF71D /* 008.png */,
+				64BD0F0117BF893600DDF71D /* 009.png */,
+				64BD0F0217BF893600DDF71D /* 010.png */,
+				64BD0F0317BF893600DDF71D /* Back_03.png */,
+				64BD0F0417BF893700DDF71D /* Back.png */,
+				64BD0F0517BF893700DDF71D /* Blood pressure_button_03.png */,
+				64BD0F0617BF893700DDF71D /* Blood pressure_button.png */,
+				64BD0F0717BF893700DDF71D /* Blood pressure_icon_07.png */,
+				64BD0F0817BF893700DDF71D /* list001.png */,
+				64BD0F0917BF893700DDF71D /* list002.png */,
+				64BD0F0A17BF893700DDF71D /* login001.png */,
+				64BD0F0B17BF893700DDF71D /* login002.png */,
+				64BD0F0C17BF893800DDF71D /* login003.png */,
+				64BD0F0D17BF893800DDF71D /* ly.png */,
+				64BD0F0E17BF893800DDF71D /* ly0.png */,
+				64BD0F0F17BF893800DDF71D /* password.png */,
+				64BD0F1017BF893800DDF71D /* password3.png */,
+				64BD0F1117BF893800DDF71D /* sc.png */,
+				64BD0F1217BF893800DDF71D /* sd.png */,
+				64BD0F1317BF893900DDF71D /* T.png */,
+				64BD0F1417BF893900DDF71D /* T0.png */,
+				64BD0F1517BF893900DDF71D /* xc.png */,
+				64BD0F1617BF893900DDF71D /* xd.png */,
+				64BD0EC717BF830600DDF71D /* Blood pressure_icon0.png */,
+				64BD0EC817BF830700DDF71D /* Blood sugar_button_03.png */,
+				64BD0EC917BF830700DDF71D /* Blood sugar_button.png */,
+				64BD0ECA17BF830700DDF71D /* Blood sugar_icon_07.png */,
+				64BD0ECB17BF830700DDF71D /* Blood sugar_icon0.png */,
+				64BD0ECC17BF830800DDF71D /* Body fat_button_03.png */,
+				64BD0ECD17BF830800DDF71D /* Body fat_button.png */,
+				64BD0ECE17BF830800DDF71D /* Body fat_icon_07.png */,
+				64BD0ECF17BF830900DDF71D /* Body fat_icon0.png */,
+				64BD0ED017BF830900DDF71D /* BodyFatMeasure_13.png */,
+				64BD0ED117BF830900DDF71D /* Date_05.png */,
+				64BD0ED217BF830A00DDF71D /* Date.png */,
+				64BD0ED317BF830A00DDF71D /* Mail_07.png */,
+				64BD0ED417BF830A00DDF71D /* Mail.png */,
+				64BD0ED517BF830A00DDF71D /* Oxygen_button_03.png */,
+				64BD0ED617BF830B00DDF71D /* Oxygen_button.png */,
+				64BD0ED717BF830B00DDF71D /* Oxygen_icon_07.png */,
+				64BD0ED817BF830B00DDF71D /* Oxygen_icon0.png */,
+				64BD0ED917BF830B00DDF71D /* R_6.png */,
+				64BD0EDA17BF830B00DDF71D /* R.png */,
+				64BD0EDB17BF830D00DDF71D /* Weight_button_03.png */,
+				64BD0EDC17BF830D00DDF71D /* Weight_button.png */,
+				64BD0EDD17BF830D00DDF71D /* Weight_icon_07.png */,
+				64BD0EDE17BF830D00DDF71D /* Weight_icon0.png */,
+				64BD0E9917BF750900DDF71D /* 04-05.png */,
+				64BD0E9A17BF750900DDF71D /* 04-06.png */,
+				64BD0E9B17BF750900DDF71D /* Blood pressure_03.png */,
+				64BD0E9C17BF750900DDF71D /* Blood pressure.png */,
+				64BD0E9D17BF750900DDF71D /* Blood sugar .png */,
+				64BD0E9E17BF750900DDF71D /* Blood sugar_03.png */,
+				64BD0E9F17BF750900DDF71D /* Body Fat_03.png */,
+				64BD0EA017BF750900DDF71D /* Body Fat.png */,
+				64BD0EA117BF750900DDF71D /* Chart_07.png */,
+				64BD0EA217BF750900DDF71D /* Chart.png */,
+				64BD0EA317BF750900DDF71D /* History_07.png */,
+				64BD0EA417BF750900DDF71D /* History.png */,
+				64BD0EA517BF750900DDF71D /* home_07.png */,
+				64BD0EA617BF750900DDF71D /* Home.png */,
+				64BD0EA717BF750900DDF71D /* Measure_07 .png */,
+				64BD0EA817BF750900DDF71D /* Measure.png */,
+				64BD0EA917BF750900DDF71D /* Oxygen .png */,
+				64BD0EAA17BF750900DDF71D /* Oxygen_03.png */,
+				64BD0EAB17BF750900DDF71D /* S.png */,
+				64BD0EAC17BF750900DDF71D /* Settings_07.png */,
+				64BD0EAD17BF750900DDF71D /* Settings.png */,
+				64BD0EAE17BF750900DDF71D /* Weight_03.png */,
+				64BD0EAF17BF750A00DDF71D /* Weight.png */,
+			);
+			path = newimage;
+			sourceTree = "<group>";
+		};
+		64C8923B17ABB9E80081275B = {
+			isa = PBXGroup;
+			children = (
+				644EB07C17D4902C0007A758 /* Nova_Yes01en.wav */,
+				644EB07A17D48BEC0007A758 /* Nova_Yes01.wav */,
+				64FA800417D4619C00924222 /* tap.aif */,
+				644EB02117D47EF00007A758 /* system.wav */,
+				64FA800117D43D3800924222 /* WQPlaySound.h */,
+				64FA800217D43D3800924222 /* WQPlaySound.m */,
+				64BF102317CEF850009682BA /* 57.png */,
+				64BF102017CEF7A9009682BA /* ehc_icon.png */,
+				64BF101A17CEEF84009682BA /* Default.png */,
+				64C8924D17ABB9E80081275B /* eBodyHealth */,
+				64BBB10E17C605A40011B0FA /* CorePlotHeaders */,
+				64BD0E6817BF5D4F00DDF71D /* newimage */,
+				64CB928B17B8899B007A72DE /* TapDetectingImageView */,
+				64C8926B17ABB9E80081275B /* eBodyHealthTests */,
+				64C8924617ABB9E80081275B /* Frameworks */,
+				64C8924517ABB9E80081275B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64C8924517ABB9E80081275B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64C8924417ABB9E80081275B /* eBodyHealth.app */,
+				64C8926417ABB9E80081275B /* eBodyHealthTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64C8924617ABB9E80081275B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64FA7FFF17D43C0C00924222 /* AudioToolbox.framework */,
+				64BBB15C17C605B20011B0FA /* libCorePlot-CocoaTouch.a */,
+				64E4AEDE17B4F27C0009A185 /* libsqlite3.dylib */,
+				64BCF03817C72EAC00D09187 /* QuartzCore.framework */,
+				64D3FCA617BA178A00AC93FF /* CoreBluetooth.framework */,
+				64C8924717ABB9E80081275B /* UIKit.framework */,
+				64C8924917ABB9E80081275B /* Foundation.framework */,
+				64C8924B17ABB9E80081275B /* CoreGraphics.framework */,
+				64C8926517ABB9E80081275B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64C8924D17ABB9E80081275B /* eBodyHealth */ = {
+			isa = PBXGroup;
+			children = (
+				64C8925617ABB9E80081275B /* AppDelegate.h */,
+				64C8925717ABB9E80081275B /* AppDelegate.m */,
+				64D3FD7017BA382900AC93FF /* MySingleton.h */,
+				64D3FD7117BA382B00AC93FF /* MySingleton.m */,
+				64C8927C17ABBA470081275B /* UserSelectViewController.h */,
+				64C8927D17ABBA470081275B /* UserSelectViewController.m */,
+				64C8927E17ABBA470081275B /* UserSelectViewController.xib */,
+				64C8928F17ACDD140081275B /* CreateUserViewController.h */,
+				64C8929017ACDD140081275B /* CreateUserViewController.m */,
+				64C8929117ACDD150081275B /* CreateUserViewController.xib */,
+				64C8929417ACECA70081275B /* MeasureViewController.h */,
+				64C8929517ACECA70081275B /* MeasureViewController.m */,
+				64C8929617ACECA70081275B /* MeasureViewController.xib */,
+				64C8929917ACEF5B0081275B /* HistoryViewController.h */,
+				64C8929A17ACEF5B0081275B /* HistoryViewController.m */,
+				64C8929B17ACEF5B0081275B /* HistoryViewController.xib */,
+				64C8929E17ACEF6E0081275B /* ChartViewController.h */,
+				64C8929F17ACEF6E0081275B /* ChartViewController.m */,
+				64C892A017ACEF6E0081275B /* ChartViewController.xib */,
+				64C892A317ACEF910081275B /* SettingsViewController.h */,
+				64C892A417ACEF910081275B /* SettingsViewController.m */,
+				64C892A517ACEF910081275B /* SettingsViewController.xib */,
+				64A6999F17BB7B9000821F0D /* SettingUserInfoViewController.h */,
+				64A699A017BB7B9000821F0D /* SettingUserInfoViewController.m */,
+				64A699A117BB7B9000821F0D /* SettingUserInfoViewController.xib */,
+				64D3FD6417BA276B00AC93FF /* WeightMeasureViewController.h */,
+				64D3FD6517BA276B00AC93FF /* WeightMeasureViewController.m */,
+				64D3FD6617BA276B00AC93FF /* WeightMeasureViewController.xib */,
+				64C8946417B0C61A0081275B /* ChooseMeasureViewController.h */,
+				64C8946517B0C61B0081275B /* ChooseMeasureViewController.m */,
+				64C8946617B0C61C0081275B /* ChooseMeasureViewController.xib */,
+				64C894FC17B101D90081275B /* BloodPressMeasureViewController.h */,
+				64C894FD17B101D90081275B /* BloodPressMeasureViewController.m */,
+				64C894FE17B101DA0081275B /* BloodPressMeasureViewController.xib */,
+				64C8950117B1035C0081275B /* BodyFatMeasureViewController.h */,
+				64C8950217B1035D0081275B /* BodyFatMeasureViewController.m */,
+				64C8950317B1035E0081275B /* BodyFatMeasureViewController.xib */,
+				64C8950617B1039B0081275B /* OxygenMeasureViewController.h */,
+				64C8950717B1039C0081275B /* OxygenMeasureViewController.m */,
+				64C8950817B1039D0081275B /* OxygenMeasureViewController.xib */,
+				64C8950B17B103D90081275B /* GlucoseMeasureViewController.h */,
+				64C8950C17B103D90081275B /* GlucoseMeasureViewController.m */,
+				64C8950D17B103DA0081275B /* GlucoseMeasureViewController.xib */,
+				64D3FD6117BA276A00AC93FF /* WeightDataCell.h */,
+				64D3FD6217BA276A00AC93FF /* WeightDataCell.m */,
+				64D3FD6317BA276A00AC93FF /* WeightDataCell.xib */,
+				64D3FD6B17BA28A700AC93FF /* BodyfatDataCell.h */,
+				64D3FD6C17BA28A700AC93FF /* BodyfatDataCell.m */,
+				64D3FD6D17BA28A700AC93FF /* BodyfatDataCell.xib */,
+				64C8924E17ABB9E80081275B /* Supporting Files */,
+			);
+			path = eBodyHealth;
+			sourceTree = "<group>";
+		};
+		64C8924E17ABB9E80081275B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64C8924F17ABB9E80081275B /* eBodyHealth-Info.plist */,
+				64C8925017ABB9E80081275B /* InfoPlist.strings */,
+				64C8925317ABB9E80081275B /* main.m */,
+				64C8925517ABB9E80081275B /* eBodyHealth-Prefix.pch */,
+				64C8925917ABB9E80081275B /* Default.png */,
+				64C8925B17ABB9E80081275B /* Default@2x.png */,
+				64C8925D17ABB9E80081275B /* Default-568h@2x.png */,
+				64C8928D17ACDC3A0081275B /* Localizable.strings */,
+				64B9E1AE188630AE00E896EC /* Media.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64C8926B17ABB9E80081275B /* eBodyHealthTests */ = {
+			isa = PBXGroup;
+			children = (
+				64C8927117ABB9E80081275B /* eBodyHealthTests.h */,
+				64C8927217ABB9E80081275B /* eBodyHealthTests.m */,
+				64C8926C17ABB9E80081275B /* Supporting Files */,
+			);
+			path = eBodyHealthTests;
+			sourceTree = "<group>";
+		};
+		64C8926C17ABB9E80081275B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64C8926D17ABB9E80081275B /* eBodyHealthTests-Info.plist */,
+				64C8926E17ABB9E80081275B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64CB928B17B8899B007A72DE /* TapDetectingImageView */ = {
+			isa = PBXGroup;
+			children = (
+				64CB928C17B889AF007A72DE /* TapDetectingImageView.h */,
+				64CB928D17B889AF007A72DE /* TapDetectingImageView.m */,
+			);
+			name = TapDetectingImageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64C8924317ABB9E80081275B /* eBodyHealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C8927617ABB9E80081275B /* Build configuration list for PBXNativeTarget "eBodyHealth" */;
+			buildPhases = (
+				64C8924017ABB9E80081275B /* Sources */,
+				64C8924117ABB9E80081275B /* Frameworks */,
+				64C8924217ABB9E80081275B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eBodyHealth;
+			productName = eBodyHealth;
+			productReference = 64C8924417ABB9E80081275B /* eBodyHealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64C8926317ABB9E80081275B /* eBodyHealthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C8927917ABB9E80081275B /* Build configuration list for PBXNativeTarget "eBodyHealthTests" */;
+			buildPhases = (
+				64C8925F17ABB9E80081275B /* Sources */,
+				64C8926017ABB9E80081275B /* Frameworks */,
+				64C8926117ABB9E80081275B /* Resources */,
+				64C8926217ABB9E80081275B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64C8926A17ABB9E80081275B /* PBXTargetDependency */,
+			);
+			name = eBodyHealthTests;
+			productName = eBodyHealthTests;
+			productReference = 64C8926417ABB9E80081275B /* eBodyHealthTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64C8923C17ABB9E80081275B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "夏 伟";
+			};
+			buildConfigurationList = 64C8923F17ABB9E80081275B /* Build configuration list for PBXProject "eBodyHealth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 64C8923B17ABB9E80081275B;
+			productRefGroup = 64C8924517ABB9E80081275B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64C8924317ABB9E80081275B /* eBodyHealth */,
+				64C8926317ABB9E80081275B /* eBodyHealthTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64C8924217ABB9E80081275B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C8925217ABB9E80081275B /* InfoPlist.strings in Resources */,
+				64C8925C17ABB9E80081275B /* Default@2x.png in Resources */,
+				64C8925E17ABB9E80081275B /* Default-568h@2x.png in Resources */,
+				64C8928017ABBA470081275B /* UserSelectViewController.xib in Resources */,
+				64C8928B17ACDC3A0081275B /* Localizable.strings in Resources */,
+				64C8929317ACDD150081275B /* CreateUserViewController.xib in Resources */,
+				64C8929817ACECA70081275B /* MeasureViewController.xib in Resources */,
+				64C8929D17ACEF5C0081275B /* HistoryViewController.xib in Resources */,
+				64C892A217ACEF6E0081275B /* ChartViewController.xib in Resources */,
+				64C892A717ACEF910081275B /* SettingsViewController.xib in Resources */,
+				64C8946817B0C61E0081275B /* ChooseMeasureViewController.xib in Resources */,
+				64C8950017B101DB0081275B /* BloodPressMeasureViewController.xib in Resources */,
+				64C8950517B1035F0081275B /* BodyFatMeasureViewController.xib in Resources */,
+				64C8950A17B1039F0081275B /* OxygenMeasureViewController.xib in Resources */,
+				64C8950F17B103DB0081275B /* GlucoseMeasureViewController.xib in Resources */,
+				64D3FD6817BA276B00AC93FF /* WeightDataCell.xib in Resources */,
+				64D3FD6A17BA276B00AC93FF /* WeightMeasureViewController.xib in Resources */,
+				64D3FD6F17BA28A700AC93FF /* BodyfatDataCell.xib in Resources */,
+				64A699A317BB7B9000821F0D /* SettingUserInfoViewController.xib in Resources */,
+				64BD0EB017BF750A00DDF71D /* 04-05.png in Resources */,
+				64BD0EB117BF750A00DDF71D /* 04-06.png in Resources */,
+				64BD0EB217BF750A00DDF71D /* Blood pressure_03.png in Resources */,
+				64BD0EB317BF750A00DDF71D /* Blood pressure.png in Resources */,
+				64BD0EB417BF750A00DDF71D /* Blood sugar .png in Resources */,
+				64BD0EB517BF750A00DDF71D /* Blood sugar_03.png in Resources */,
+				64BD0EB617BF750A00DDF71D /* Body Fat_03.png in Resources */,
+				64BD0EB717BF750A00DDF71D /* Body Fat.png in Resources */,
+				64BD0EB817BF750A00DDF71D /* Chart_07.png in Resources */,
+				64BD0EB917BF750A00DDF71D /* Chart.png in Resources */,
+				64BD0EBA17BF750A00DDF71D /* History_07.png in Resources */,
+				64BD0EBB17BF750A00DDF71D /* History.png in Resources */,
+				64BD0EBC17BF750A00DDF71D /* home_07.png in Resources */,
+				64BD0EBD17BF750A00DDF71D /* Home.png in Resources */,
+				64BD0EBE17BF750A00DDF71D /* Measure_07 .png in Resources */,
+				64BD0EBF17BF750A00DDF71D /* Measure.png in Resources */,
+				64BD0EC017BF750A00DDF71D /* Oxygen .png in Resources */,
+				64BD0EC117BF750A00DDF71D /* Oxygen_03.png in Resources */,
+				64BD0EC217BF750A00DDF71D /* S.png in Resources */,
+				64BD0EC317BF750A00DDF71D /* Settings_07.png in Resources */,
+				64B9E1AF188630AE00E896EC /* Media.xcassets in Resources */,
+				64BD0EC417BF750A00DDF71D /* Settings.png in Resources */,
+				64BD0EC517BF750A00DDF71D /* Weight_03.png in Resources */,
+				64BD0EC617BF750A00DDF71D /* Weight.png in Resources */,
+				64BD0EDF17BF830D00DDF71D /* Blood pressure_icon0.png in Resources */,
+				64BD0EE017BF830D00DDF71D /* Blood sugar_button_03.png in Resources */,
+				64BD0EE117BF830D00DDF71D /* Blood sugar_button.png in Resources */,
+				64BD0EE217BF830D00DDF71D /* Blood sugar_icon_07.png in Resources */,
+				64BD0EE317BF830D00DDF71D /* Blood sugar_icon0.png in Resources */,
+				64BD0EE417BF830D00DDF71D /* Body fat_button_03.png in Resources */,
+				64BD0EE517BF830D00DDF71D /* Body fat_button.png in Resources */,
+				64BD0EE617BF830D00DDF71D /* Body fat_icon_07.png in Resources */,
+				64BD0EE717BF830D00DDF71D /* Body fat_icon0.png in Resources */,
+				64BD0EE817BF830D00DDF71D /* BodyFatMeasure_13.png in Resources */,
+				64BD0EE917BF830D00DDF71D /* Date_05.png in Resources */,
+				64BD0EEA17BF830D00DDF71D /* Date.png in Resources */,
+				64BD0EEB17BF830D00DDF71D /* Mail_07.png in Resources */,
+				64BD0EEC17BF830D00DDF71D /* Mail.png in Resources */,
+				64BD0EED17BF830D00DDF71D /* Oxygen_button_03.png in Resources */,
+				64BD0EEE17BF830D00DDF71D /* Oxygen_button.png in Resources */,
+				64BD0EEF17BF830D00DDF71D /* Oxygen_icon_07.png in Resources */,
+				64BD0EF017BF830D00DDF71D /* Oxygen_icon0.png in Resources */,
+				64BD0EF117BF830D00DDF71D /* R_6.png in Resources */,
+				64BD0EF217BF830D00DDF71D /* R.png in Resources */,
+				64BD0EF317BF830D00DDF71D /* Weight_button_03.png in Resources */,
+				64BD0EF417BF830D00DDF71D /* Weight_button.png in Resources */,
+				64BD0EF517BF830D00DDF71D /* Weight_icon_07.png in Resources */,
+				64BD0EF617BF830D00DDF71D /* Weight_icon0.png in Resources */,
+				64BD0F1717BF893900DDF71D /* 00_26.png in Resources */,
+				64BD0F1817BF893900DDF71D /* 001.png in Resources */,
+				64BD0F1917BF893900DDF71D /* 2.png in Resources */,
+				64BD0F1A17BF893900DDF71D /* 002.png in Resources */,
+				64BD0F1B17BF893900DDF71D /* 003.png in Resources */,
+				64BD0F1C17BF893900DDF71D /* 004.png in Resources */,
+				64BD0F1D17BF893900DDF71D /* 005.png in Resources */,
+				64BD0F1E17BF893900DDF71D /* 006.png in Resources */,
+				64BD0F1F17BF893900DDF71D /* 007.png in Resources */,
+				64BD0F2017BF893900DDF71D /* 008.png in Resources */,
+				64BD0F2117BF893900DDF71D /* 009.png in Resources */,
+				64BD0F2217BF893900DDF71D /* 010.png in Resources */,
+				64BD0F2317BF893900DDF71D /* Back_03.png in Resources */,
+				64BD0F2417BF893900DDF71D /* Back.png in Resources */,
+				64BD0F2517BF893900DDF71D /* Blood pressure_button_03.png in Resources */,
+				64BD0F2617BF893900DDF71D /* Blood pressure_button.png in Resources */,
+				64BD0F2717BF893900DDF71D /* Blood pressure_icon_07.png in Resources */,
+				64BD0F2817BF893900DDF71D /* list001.png in Resources */,
+				64BD0F2917BF893900DDF71D /* list002.png in Resources */,
+				64BD0F2A17BF893900DDF71D /* login001.png in Resources */,
+				64BD0F2B17BF893900DDF71D /* login002.png in Resources */,
+				64BD0F2C17BF893900DDF71D /* login003.png in Resources */,
+				64BD0F2D17BF893900DDF71D /* ly.png in Resources */,
+				64BD0F2E17BF893900DDF71D /* ly0.png in Resources */,
+				64BD0F2F17BF893900DDF71D /* password.png in Resources */,
+				64BD0F3017BF893900DDF71D /* password3.png in Resources */,
+				64BD0F3117BF893900DDF71D /* sc.png in Resources */,
+				64BD0F3217BF893900DDF71D /* sd.png in Resources */,
+				64BD0F3317BF893900DDF71D /* T.png in Resources */,
+				64BD0F3417BF893900DDF71D /* T0.png in Resources */,
+				64BD0F3517BF893900DDF71D /* xc.png in Resources */,
+				64BD0F3617BF893900DDF71D /* xd.png in Resources */,
+				64AA0E6E17C1F1F200F4FDD3 /* login_back.png in Resources */,
+				64BF101B17CEEF84009682BA /* Default.png in Resources */,
+				64BF102117CEF7A9009682BA /* ehc_icon.png in Resources */,
+				64BF102417CEF850009682BA /* 57.png in Resources */,
+				64FA800517D4619C00924222 /* tap.aif in Resources */,
+				644EB02217D47EF00007A758 /* system.wav in Resources */,
+				644EB07B17D48BEC0007A758 /* Nova_Yes01.wav in Resources */,
+				644EB07D17D4902C0007A758 /* Nova_Yes01en.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C8926117ABB9E80081275B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C8927017ABB9E80081275B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64C8926217ABB9E80081275B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64C8924017ABB9E80081275B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C8925417ABB9E80081275B /* main.m in Sources */,
+				64C8925817ABB9E80081275B /* AppDelegate.m in Sources */,
+				64C8927F17ABBA470081275B /* UserSelectViewController.m in Sources */,
+				64C8929217ACDD150081275B /* CreateUserViewController.m in Sources */,
+				64C8929717ACECA70081275B /* MeasureViewController.m in Sources */,
+				64C8929C17ACEF5C0081275B /* HistoryViewController.m in Sources */,
+				64C892A117ACEF6E0081275B /* ChartViewController.m in Sources */,
+				64C892A617ACEF910081275B /* SettingsViewController.m in Sources */,
+				64C8946717B0C61E0081275B /* ChooseMeasureViewController.m in Sources */,
+				64C894FF17B101DB0081275B /* BloodPressMeasureViewController.m in Sources */,
+				64C8950417B1035F0081275B /* BodyFatMeasureViewController.m in Sources */,
+				64C8950917B1039F0081275B /* OxygenMeasureViewController.m in Sources */,
+				64C8950E17B103DB0081275B /* GlucoseMeasureViewController.m in Sources */,
+				64CB928E17B889AF007A72DE /* TapDetectingImageView.m in Sources */,
+				64D3FD6717BA276B00AC93FF /* WeightDataCell.m in Sources */,
+				64D3FD6917BA276B00AC93FF /* WeightMeasureViewController.m in Sources */,
+				64D3FD6E17BA28A700AC93FF /* BodyfatDataCell.m in Sources */,
+				64D3FD7217BA382F00AC93FF /* MySingleton.m in Sources */,
+				64A699A217BB7B9000821F0D /* SettingUserInfoViewController.m in Sources */,
+				64FA800317D43D3800924222 /* WQPlaySound.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C8925F17ABB9E80081275B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C8927317ABB9E80081275B /* eBodyHealthTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64C8926A17ABB9E80081275B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64C8924317ABB9E80081275B /* eBodyHealth */;
+			targetProxy = 64C8926917ABB9E80081275B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64C8925017ABB9E80081275B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64C8925117ABB9E80081275B /* en */,
+				64C8928117ACD9E10081275B /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64C8926E17ABB9E80081275B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64C8926F17ABB9E80081275B /* en */,
+				64C8928217ACD9E10081275B /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64C8928D17ACDC3A0081275B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64C8928C17ACDC3A0081275B /* en */,
+				64C8928E17ACDC400081275B /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64B77BB317D587A800F124C3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Distribution;
+		};
+		64B77BB417D587A800F124C3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eBodyHealth/eBodyHealth-Prefix.pch";
+				INFOPLIST_FILE = "eBodyHealth/eBodyHealth-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		64B77BB517D587A800F124C3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/eBodyHealth.app/eBodyHealth";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eBodyHealth/eBodyHealth-Prefix.pch";
+				INFOPLIST_FILE = "eBodyHealthTests/eBodyHealthTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Distribution;
+		};
+		64C8927417ABB9E80081275B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		64C8927517ABB9E80081275B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		64C8927717ABB9E80081275B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eBodyHealth/eBodyHealth-Prefix.pch";
+				INFOPLIST_FILE = "eBodyHealth/eBodyHealth-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64C8927817ABB9E80081275B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eBodyHealth/eBodyHealth-Prefix.pch";
+				INFOPLIST_FILE = "eBodyHealth/eBodyHealth-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		64C8927A17ABB9E80081275B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/eBodyHealth.app/eBodyHealth";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eBodyHealth/eBodyHealth-Prefix.pch";
+				INFOPLIST_FILE = "eBodyHealthTests/eBodyHealthTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		64C8927B17ABB9E80081275B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/eBodyHealth.app/eBodyHealth";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eBodyHealth/eBodyHealth-Prefix.pch";
+				INFOPLIST_FILE = "eBodyHealthTests/eBodyHealthTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64C8923F17ABB9E80081275B /* Build configuration list for PBXProject "eBodyHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C8927417ABB9E80081275B /* Debug */,
+				64B77BB317D587A800F124C3 /* Distribution */,
+				64C8927517ABB9E80081275B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C8927617ABB9E80081275B /* Build configuration list for PBXNativeTarget "eBodyHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C8927717ABB9E80081275B /* Debug */,
+				64B77BB417D587A800F124C3 /* Distribution */,
+				64C8927817ABB9E80081275B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C8927917ABB9E80081275B /* Build configuration list for PBXNativeTarget "eBodyHealthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C8927A17ABB9E80081275B /* Debug */,
+				64B77BB517D587A800F124C3 /* Distribution */,
+				64C8927B17ABB9E80081275B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64C8923C17ABB9E80081275B /* Project object */;
+}
